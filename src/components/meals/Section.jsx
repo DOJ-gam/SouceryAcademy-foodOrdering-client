@@ -127,14 +127,7 @@ const Section = (props) => {
                     <a href="##" class="btn btn-success">Buy Drink</a>
                   </div>
             </div>
-            <div className="col-md-4 ">
-                  <img className="img-fluid card-img-top h-25" src="https://images.unsplash.com/photo-1597306691225-69ef217a43cc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=324&q=80" alt="" />
-                  <div class="card-block">
-                    <h4 class="card-title text-danger">Watermelon Juice</h4>
-                    <p class="card-text">D150</p>
-                    <a href="##" class="btn btn-success">Buy Drink</a>
-                  </div>
-            </div>
+           
           </div>
         </div>
       </div>

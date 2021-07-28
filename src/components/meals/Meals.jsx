@@ -3,6 +3,7 @@ import {Fragment} from "react";
 import SideNav from './SideNAv'
 import Section from './Section'
 import Desert from './Desert';
+import './Meals.css'
 
 const Meals = props => {
   return (
