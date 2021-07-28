@@ -1,7 +1,25 @@
 .side{
-    background-color:rgb(199, 225, 226);
-    height:100%;
+    /* background-color:rgb(199, 225, 226); */
+    background-color:#404242;
+    font-weight: bold;
+    font-size: 1.5rem;
+    /* height:100%; */
+}
+
+.side a{
+    color: #fff !important;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+.side a:hover{
+    background-color: #198754 !important;
+    color: #dc3545 !important;
 }
 .side h1{
     color:rgb(65, 34, 34);
+}
+
+.my-active{
+    background-color: #dc3545 !important;
+    color:#198754 !important;
 }

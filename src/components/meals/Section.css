@@ -1,4 +1,12 @@
 .section{
-    background-color:rgb(199, 225, 226);
+    /* background-color:rgb(199, 225, 226); */
+    /* background-color: #A8763E; */
+    /* background-color: #dfe6df; */
     height:100%;
+}
+
+.section img:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: all 0.5s;
 }
