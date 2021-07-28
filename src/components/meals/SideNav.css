@@ -14,6 +14,9 @@
 .side a:hover{
     background-color: #198754 !important;
     color: #dc3545 !important;
+    padding: 0.7rem;
+    border-radius: 10px;
+    transition: all 0.7s ease-out; 
 }
 .side h1{
     color:rgb(65, 34, 34);
