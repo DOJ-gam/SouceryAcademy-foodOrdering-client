@@ -1,5 +1,4 @@
 import React from 'react'
-import { Fragment } from 'react';
 import './Hero.css';
 import HeroButtons from '../HeroButtons/HeroButtons'
 

@@ -8,5 +8,25 @@
 .section img:hover{
     cursor: pointer;
     transform: scale(0.9);
-    transition: all 0.5s;
+
+    transition: all 0.5s ease-in-out;
+}
+.breakfast{
+    margin-bottom: -100px;
+}
+.lunch {
+    margin-bottom: -220px;
+}
+.dinner {
+    margin-bottom: -50px;
+}
+.drinks{
+    margin-bottom: -270px;
+}
+
+.h-30{
+    height: 30%;
+}
+.h-40{
+    height: 40%;
 }
