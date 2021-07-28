@@ -28,7 +28,7 @@ const SideNav = (props) => {
     }
 }
   return (
-    <div className="side px-5 py-3 text-center">
+    <div className="side px-5 py-3">
         {/* <h1 className="fs-6 w-100">SELECT YOUR MEAL</h1> */}
         <h6 className="fw-bold display-6 text-danger">Popular</h6>
         <h6 className="fw-bold display-6 text-success">Foods</h6>
