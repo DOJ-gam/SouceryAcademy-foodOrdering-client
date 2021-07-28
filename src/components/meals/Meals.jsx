@@ -16,7 +16,7 @@ const Meals = props => {
           <div className="col-md-8 offset-md-1">
             <Section/>
           </div>
-          <div className="col-md-12">
+          <div className="des col-md-12 py-5">
             <Desert/>
           </div>
         </div>
