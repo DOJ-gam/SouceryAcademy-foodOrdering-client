@@ -9,11 +9,11 @@ function App() {
   return (
     <Fragment>
       <Navbar />
-      <div className="container">
-        <div className="hero align-center">
+      <div className="">
+        <div className="hero">
           <Hero/>
         </div>
-        <div className="meals my-3 px-4">
+        <div className="meals">
           <Meals />
         </div>
       </div>
