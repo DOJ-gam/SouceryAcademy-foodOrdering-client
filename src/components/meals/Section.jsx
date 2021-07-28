@@ -1,7 +1,7 @@
 import "./Section.css";
 const Section = (props) => {
   return (
-    <div className="section p-2">
+    <div className="section">
       <div class="tab-content" id="nav-tabContent">
         <div
           class="tab-pane fade show active"
@@ -10,8 +10,7 @@ const Section = (props) => {
           aria-labelledby="list-home-list"
         >
           <div className="row">
-            <h4 className="text-muted fs-3 fw-bolder">Breakfast</h4>
-            <div className="col-md-4">
+            <div className="col-md-4 ">
               <img
                 className="img-fluid card-img-top h-50"
                 src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=602&q=80"
@@ -26,7 +25,7 @@ const Section = (props) => {
               </div>
             </div>
 
-            <div className="col-md-4 col-sm-12">
+            <div className="col-md-4 ">
               <img
                 className="img-fluid card-img-top h-50"
                 src="https://images.unsplash.com/photo-1561651823-34feb02250e4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=478&q=80"
@@ -64,7 +63,6 @@ const Section = (props) => {
           aria-labelledby="list-profile-list"
         >
           <div className="row">
-          <h4 className="text-muted fs-3 fw-bolder">Lunch</h4>
             <div className="col-md-4 ">
                   <img className="img-fluid card-img-top h-50" src="https://images.unsplash.com/photo-1611712142269-12b7433e28e9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWZyaWNhbiUyMGZvb2R8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" />
                   <div class="card-block">
@@ -82,7 +80,6 @@ const Section = (props) => {
           aria-labelledby="list-messages-list"
         >
           <div className="row">
-          <h4 className="text-muted fs-3 fw-bolder">Dinner</h4>
             <div className="col-md-4 ">
                   <img className="img-fluid card-img-top h-50" src="https://images.unsplash.com/photo-1578974721235-ecce3a0d8dcf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=630&q=80" alt="" />
                   <div class="card-block">
@@ -100,7 +97,6 @@ const Section = (props) => {
           aria-labelledby="list-settings-list"
         >
           <div className="row">
-          <h4 className="text-muted fs-3 fw-bolder">Drinks</h4>
             <div className="col-md-4 ">
                   <img className="img-fluid card-img-top h-25" src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=825&q=80" alt="" />
                   <div class="card-block">
@@ -125,14 +121,14 @@ const Section = (props) => {
                     <a href="##" class="btn btn-success">Buy Drink</a>
                   </div>
             </div>
-            {/* <div className="col-md-4 ">
+            <div className="col-md-4 ">
                   <img className="img-fluid card-img-top h-25" src="https://images.unsplash.com/photo-1597306691225-69ef217a43cc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=324&q=80" alt="" />
                   <div class="card-block">
                     <h4 class="card-title text-danger">Watermelon Juice</h4>
                     <p class="card-text">D150</p>
                     <a href="##" class="btn btn-success">Buy Drink</a>
                   </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
