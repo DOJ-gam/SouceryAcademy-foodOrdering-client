@@ -9,7 +9,6 @@ const Section = (props) => {
           role="tabpanel"
           aria-labelledby="list-home-list"
         >
-
           <div className="row breakfast">
             <h4 className="text-muted fs-3 fw-bolder">Breakfast</h4>
             <div className="col-md-4">
@@ -82,7 +81,6 @@ const Section = (props) => {
           role="tabpanel"
           aria-labelledby="list-messages-list"
         >
-
           <div className="row dinner">
           <h4 className="text-muted fs-3 fw-bolder">Dinner</h4>
 
@@ -102,7 +100,6 @@ const Section = (props) => {
           role="tabpanel"
           aria-labelledby="list-settings-list"
         >
-
           <div className="row drinks">
           <h4 className="text-muted fs-3 fw-bolder">Drinks</h4>
 
