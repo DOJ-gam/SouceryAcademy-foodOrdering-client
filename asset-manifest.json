@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/DOJ-gam/SouceryAcademy-foodOrdering-client.git/static/css/main.4847a2c4.chunk.css",
+    "main.js": "/DOJ-gam/SouceryAcademy-foodOrdering-client.git/static/js/main.d97d43ba.chunk.js",
+    "main.js.map": "/DOJ-gam/SouceryAcademy-foodOrdering-client.git/static/js/main.d97d43ba.chunk.js.map",
+    "runtime-main.js": "/DOJ-gam/SouceryAcademy-foodOrdering-client.git/static/js/runtime-main.54e917d4.js",
+    "runtime-main.js.map": "/DOJ-gam/SouceryAcademy-foodOrdering-client.git/static/js/runtime-main.54e917d4.js.map",
+    "static/js/2.ba4a2d68.chunk.js": "/DOJ-gam/SouceryAcademy-foodOrdering-client.git/static/js/2.ba4a2d68.chunk.js",
+    "static/js/2.ba4a2d68.chunk.js.map": "/DOJ-gam/SouceryAcademy-foodOrdering-client.git/static/js/2.ba4a2d68.chunk.js.map",
+    "index.html": "/DOJ-gam/SouceryAcademy-foodOrdering-client.git/index.html",
+    "static/css/main.4847a2c4.chunk.css.map": "/DOJ-gam/SouceryAcademy-foodOrdering-client.git/static/css/main.4847a2c4.chunk.css.map",
+    "static/js/2.ba4a2d68.chunk.js.LICENSE.txt": "/DOJ-gam/SouceryAcademy-foodOrdering-client.git/static/js/2.ba4a2d68.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.54e917d4.js",
+    "static/js/2.ba4a2d68.chunk.js",
+    "static/css/main.4847a2c4.chunk.css",
+    "static/js/main.d97d43ba.chunk.js"
+  ]
+}
