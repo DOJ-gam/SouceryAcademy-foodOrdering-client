@@ -2,12 +2,12 @@ import React from 'react';
 import {Fragment} from "react";
 import SideNav from './SideNAv'
 import Section from './Section'
-import './Meals.css'
 import Desert from './Desert'
 
 const Meals = props => {
   return (
     <Fragment>
+
       <div className="meals py-3 px-3">
         <div className="row">
           <div className="col-md-3">
