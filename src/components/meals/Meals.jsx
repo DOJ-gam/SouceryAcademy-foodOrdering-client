@@ -2,6 +2,7 @@ import React from 'react';
 import {Fragment} from "react";
 import SideNav from './SideNAv'
 import Section from './Section'
+import Desert from './Desert';
 
 const Meals = props => {
   return (
