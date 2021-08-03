@@ -1,3 +1,19 @@
+
+:root {
+    --primary-font: Josefin Sans;
+  
+    /* Color */
+    --primary-color: #000;
+    --primary-bg-color: #f4f4f8;
+  
+    /* Hover Color */
+    --primary-color-hover: #FD3B2F;
+    --primary-bg-color-hover: #000;
+  
+    /* --secondary-color: #000; */
+  }
+  
+
 .section{
     /* background-color:rgb(199, 225, 226); */
     /* background-color: #A8763E; */
@@ -30,3 +46,115 @@
 .h-40{
     height: 40%;
 }
+
+
+.pro-box {
+    height: 100%;
+    display: block;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 22px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  
+  .pro-img {
+     height: 100%;
+    width:100%;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column; 
+     max-height: 220px; 
+     position: relative; 
+     align-items: center;
+    margin-bottom: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px; 
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+   
+
+    
+   
+  }
+  
+  
+  
+  
+  
+  /* .pro-img .i {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 30px;
+    border-radius: 6px;
+    color: #fff;
+    padding: 6px;
+    /*background-color: rgba(255, 255, 255, 0.4);*/
+    /* background-color: #FD3B2F;
+  } */ */
+  
+  .pro-box p {
+    font-size: 18px;
+    line-height: 1.4;
+    margin-top: 10px;
+    font-weight: 500;
+  }
+  
+
+.product-details {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    justify-content: space-between;
+  }
+  
+  .product-details h4 {
+    font-size: 20px;
+    margin-bottom: 0;
+    transition: all 0.5s;
+    /*max-width: calc(100% - 60px);*/
+  }
+  
+  .product-details a {
+    display: block;
+  }
+  
+  .product-details a:hover h4 {
+    color: var(--primary-color-hover);
+  }
+  
+  .product-details .pro-pricing {
+    font-size: 24px;
+    padding-right: 0;
+  }
+  
+  .product-details p {
+    margin-top: 0;
+    padding-right: 6px;
+    margin-bottom: 0;
+    font-size: 14px;
+    max-width: 300px;
+  }
+  
+  .product-details .btn {
+    margin-right: 0;
+    padding: 7px 16px;
+  }
+  
+  .pro-details-display {
+    display: flex;
+    flex-direction: column;
+  }
